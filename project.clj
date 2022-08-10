@@ -4,4 +4,5 @@
   :dependencies [[org.clojure/clojure "1.11.1"]]
   :source-paths ["src/clojure"]
   :java-source-paths ["src/java"]
+  :javac-options ["-source" "19" "-target" "19" "--enable-preview"]
   :repl-options {:init-ns hello-java.core})
