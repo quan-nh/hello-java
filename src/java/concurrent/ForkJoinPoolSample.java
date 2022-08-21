@@ -25,7 +25,7 @@ public class ForkJoinPoolSample {
     // The problem then becomes how to keep all the threads busy when they’re not playing from a single point of control.
     // This is done by allowing threads to steal work from the *back* of another thread’s queue (again, avoiding contention at the head of the queue).
     // This allows threads to “auto-balance” the work load.
-    
+
 
     // The center of the fork/join framework is the ForkJoinPool class, an extension of the AbstractExecutorService class.
     // ForkJoinPool implements the core work-stealing algorithm and can execute ForkJoinTask processes.
