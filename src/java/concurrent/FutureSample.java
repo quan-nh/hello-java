@@ -8,8 +8,7 @@ import java.util.stream.Stream;
 public class FutureSample {
 //    https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/concurrent/Future.html
 
-//    Sample Usage (Note that the following classes are all made-up.)
-//
+//    Sample Usage
 //
 //    interface ArchiveSearcher { String search(String target); }
 //
