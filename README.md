@@ -8,6 +8,7 @@
   + [ForkJoinPool](src/java/concurrent/ForkJoinPoolSample.java)
   + [BlockingQueue](src/java/concurrent/BlockingQueueSample.java)
   + [Virtual Thread](src/java/concurrent/VirtualThreadSample.java)
+  + [Lock](src/java/concurrent/LockSample.java)
   + [Semaphore](src/java/concurrent/SemaphoreSample.java)
 
 - ExecutorService vs Fork/Join
