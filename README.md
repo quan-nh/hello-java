@@ -8,6 +8,7 @@
   + [ForkJoinPool](src/java/concurrent/ForkJoinPoolSample.java)
   + [BlockingQueue](src/java/concurrent/BlockingQueueSample.java)
   + [Virtual Thread](src/java/concurrent/VirtualThreadSample.java)
+  + [Semaphore](src/java/concurrent/SemaphoreSample.java)
 
 - ExecutorService vs Fork/Join
   + ExecutorService gives the developer the ability to control the number of generated threads and the granularity of tasks that should be run by separate threads. The best use case for ExecutorService is the processing of independent tasks, such as transactions or requests according to the scheme “one thread for one task.
