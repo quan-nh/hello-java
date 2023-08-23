@@ -53,6 +53,7 @@ public class VirtualThreadSample {
         }
     }
 
+    // https://davidvlijmincx.com/posts/loom/java_structured_concurrency/
     private static void structuredConcurrency () {
         // Structured concurrency binds the lifetime of threads to the code block which created them.
         // This binding is implemented by making the ExecutorService Autocloseable, making it possible to use ExecutorServices in a try-with-resources.
